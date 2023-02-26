@@ -54,7 +54,7 @@ function nextSlide() {
         count = 0
     }
     count ++
-    landing.style = `background-image: url(/images/download-${count}.jpg);`
+    landing.style = `background-image: url(./images/download-${count}.jpg);`
     activeBullet()
 }
 function prevSlide() {
@@ -62,14 +62,14 @@ function prevSlide() {
         count = bullets.length + 1
     }
     count --
-    landing.style = `background-image: url(/images/download-${count}.jpg);`
+    landing.style = `background-image: url(./images/download-${count}.jpg);`
     activeBullet()
 }
 // Click On Bullets ChangeBackground
 bullets.forEach((bullet) => {
     bullet.addEventListener("click", () => {
         count = +bullet.getAttribute("data-count")
-        landing.style = `background-image: url(/images/download-${count}.jpg);`
+        landing.style = `background-image: url(./images/download-${count}.jpg);`
     })
 })
 // Bullets Active When Click Bullet From landing
