@@ -209,7 +209,7 @@ header nav .form i {
 .landing {
     min-height: 100vh;
     background-color: #1f2021;
-    background-image: url(./images/download-2.jpg);
+    background-image: url(/images/download-2.jpg);
     background-size: cover;
     transition: 0.3s;
     position: relative;
